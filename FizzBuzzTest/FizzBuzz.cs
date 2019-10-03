@@ -18,20 +18,6 @@ namespace FizzBuzzTest
         FizzBuzzy fb = new FizzBuzzy(1, 35);
         [Test()]
 
-        public void fizz()
-        {
-
-        }
-
-        public void buzz()
-        {
-
-        }
-
-        public void fizzbuzz()
-        {
-
-        }
         public void TestDivisibility()
         {
             Assert.AreEqual(0.0, fb.DivisibilityBy(6, 3));
@@ -48,5 +34,25 @@ namespace FizzBuzzTest
         {
             Assert.AreNotSame("Baby", fb.AnotherOne("Goolag"));
         }
+
+        //Test for fizzbuz
+        [Test()]
+        public void testFizz()
+        {
+            Assert.AreEqual("Fizz", fb.FizzyOutput(3));
+        }
+
+        [Test()]
+        public void testBuzz()
+        {
+            Assert.AreEqual("Buzz", fb.FizzyOutput(5));
+        }
+
+        [Test()]
+        public void testFizzBuzz()
+        {
+            Assert.AreEqual("FizzBuzz", fb.FizzyOutput(15));
+        }
+
     }
 }
