@@ -1,6 +1,6 @@
 # FizzBuzz-Unit-Testing #
 
-# Unit Testing for FizzBuzz #
+## Unit Testing for FizzBuzz ##
 
 Description: In this project I created an application based on FizzBuzz. FizzBuzz is if the number is divisible by three it is replaced by the word fizz and any number divisible by fiver it will be called buzz. Numbers divisible by 15 become fizz buzz.
 
